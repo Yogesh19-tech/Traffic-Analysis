@@ -63,46 +63,6 @@ Implemented and compared multiple classifiers:
 
 ---
 
-## 🧠 Insights
-- Younger passengers tend to give more varied ratings compared to older ones.  
-- Higher travel class generally correlates with greater satisfaction.  
-- Food quality and comfort strongly influence overall experience.  
-
----
-
-## 🚀 How to Run the Project
-1. Clone this repository  
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/Traffic_Satisfaction_Analysis.git
-   cd Traffic_Satisfaction_Analysis
-   ```
-2. Install required libraries  
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the notebook  
-   ```bash
-   jupyter notebook Traffic_analysis.ipynb
-   ```
-4. (Optional) Save the trained model  
-   ```python
-   joblib.dump(model, 'satisfaction_model.pkl')
-   ```
-
----
-
-## 📂 Repository Structure
-```
-Traffic_Satisfaction_Analysis/
-│
-├── Traffic_analysis.ipynb        # Main notebook
-├── dummy_transport_satisfaction.csv  # Dataset
-├── requirements.txt              # Dependencies
-└── README.md                     # Project documentation
-```
-
----
-
 ## 🏁 Conclusion
 This project provides valuable insights into the factors affecting passenger satisfaction in transportation systems.  
 By leveraging data analytics and machine learning, it enables data-driven decisions to enhance customer experience and operational efficiency.
